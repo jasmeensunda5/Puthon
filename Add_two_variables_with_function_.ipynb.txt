@@ -1,0 +1,53 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VoEPmYdNLsXo",
+        "outputId": "bbab9606-f8f1-42a3-812c-a10b30ba8704"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The sum of 5 and 10 is: 15\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Define two variables\n",
+        "variable1 = 5\n",
+        "variable2 = 10\n",
+        "\n",
+        "# Define a function to add two variables\n",
+        "def add_variables(var1, var2):\n",
+        "    return var1 + var2\n",
+        "\n",
+        "# Call the function and store the result in a new variable\n",
+        "result = add_variables(variable1, variable2)\n",
+        "\n",
+        "# Print the result\n",
+        "print(\"The sum of\", variable1, \"and\", variable2, \"is:\", result)"
+      ]
+    }
+  ]
+}
